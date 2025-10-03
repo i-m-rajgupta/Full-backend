@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-res.setHeader("Access-Control-Allow-Origin", "https://full-frontend-two.vercel.app/");
+res.setHeader("Access-Control-Allow-Origin", "*");
 
 
 app.get("/api",(req,res)=>{
