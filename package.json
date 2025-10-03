@@ -4,13 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-  "start": "node app",
-  "vercel-start" : "node app.js",
-  "dev": "nodemon app.js"
+    "start": "node app",
+    "vercel-start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Raj",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
   }

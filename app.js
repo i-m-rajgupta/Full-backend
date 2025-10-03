@@ -2,6 +2,13 @@ const express = require("express");
 
 const app = express();
 
+const cors = require('cors');
+
+app.use(cors({
+  origin: [ 'https://full-backend-gamma.vercel.app'],
+}));
+
+
 app.get("/api",(req,res)=>{
     res.send("Hello world");
 })
