@@ -5,7 +5,7 @@ const app = express();
 const cors = require('cors');
 
 app.use(cors({
-  origin: [ 'https://full-backend-gamma.vercel.app','https://full-frontend-two.vercel.app/'],
+  origin: [ 'https://full-frontend-two.vercel.app/'],
 }));
 
 
