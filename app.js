@@ -2,9 +2,6 @@ const express = require("express");
 
 const app = express();
 
-res.setHeader("Access-Control-Allow-Origin", "*");
-
-
 app.get("/api",(req,res)=>{
     res.send("Hello world");
 })
