@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require("express");
 
 const app = express();
 
@@ -23,10 +23,10 @@ app.get("/api/jokes",(req,res)=>{
 
 
 
-// const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 
-// app.listen(port,(req,res)=>{
-//     console.log("Server is serving ");
-// })
+app.listen(port,(req,res)=>{
+    console.log("Server is serving ");
+})
 
-module.exports = app 
+module.exports = app;
