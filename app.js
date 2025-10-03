@@ -6,6 +6,10 @@ app.get("/api",(req,res)=>{
     res.send("Hello world");
 })
 
+app.get("/",(req,res)=>{
+    res.send("Hello world");
+})
+
 app.get("/api/jokes",(req,res)=>{
     const jokes = [{
       id:1,
